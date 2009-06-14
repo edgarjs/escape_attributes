@@ -1,0 +1,22 @@
+h1. EscapeAttributes
+
+Escapes HTML for the specified attributes.
+
+h2. Example
+
+  <pre><code>
+  escape_attributes :title, :description
+  </code></pre>
+
+h2. Version
+
+Alpha, no options allowed yet.
+
+h2. TODO
+
+* Allow options like @:if@, @:unless@
+* Tests? It's a really simple lib, not sure how could I test this.
+
+h2. Author and license
+
+Edgar J. Suárez, released under the MIT license
